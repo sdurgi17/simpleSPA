@@ -1,0 +1,26 @@
+{
+  "name": "simple_spa",
+  "version": "1.0.0",
+  "description": "simple single page application",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server -w --inline -d --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikar-bhargav-durgi/simpleSPA.git"
+  },
+  "author": "srikar durgi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikar-bhargav-durgi/simpleSPA/issues"
+  },
+  "homepage": "https://github.com/srikar-bhargav-durgi/simpleSPA#readme",
+  "dependencies": {
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}
